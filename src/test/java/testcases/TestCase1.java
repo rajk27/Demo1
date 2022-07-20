@@ -13,4 +13,10 @@ public class TestCase1 {
 		System.out.println("This is login Test...");
 	}
 	
+	@Test
+	public void teardown() {
+		System.out.println("This is teardown Test...");
+	}
+	
+	
 }
